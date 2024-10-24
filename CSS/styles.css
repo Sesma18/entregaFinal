@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Nav */
 nav {
   height: 55px;
@@ -53,18 +58,15 @@ h2 {
 #hijoRedes2,
 #hijoRedes3 {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   text-decoration: none;
   font-weight: bold;
+  margin: 30px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
 /* MAIN */
 main {
@@ -104,13 +106,13 @@ p {
     height: 770px;
   }
   #padreNav a {
-    font-size: 18px;
+    font-size: 13px;
   }
   h1 {
-    font-size: 42px;
+    font-size: 32px;
   }
   img {
-    width: 50%;
+    width: 70%;
   }
   .imagenCeratiDos {
     display: flex;
@@ -121,13 +123,13 @@ p {
     height: auto;
   }
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
   h2 {
     font-size: 28px;
   }
   #padreRedes a {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
 @media (min-width: 992px) {
@@ -144,7 +146,7 @@ p {
     width: 600px;
   }
   p {
-    font-size: 27px;
+    font-size: 25px;
   }
   h2 {
     font-size: 28px;

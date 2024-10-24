@@ -3,73 +3,34 @@
     padding: 0;
 }
 /* Nav */
-nav{
-    height: 55px;
-    background-color: #00BFFF
-
-    }
-    
-#padreNav{ 
-     height: 55px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    list-style-type: none;
-
-    }
-    
-#inicio{ 
-    color: white;
-    font-size: 24px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: bold;
-
+nav {
+  height: 55px;
+  background-color: #00bfff;
 }
-    
-#biografia { 
+
+#padreNav {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  list-style-type: none;
+}
+
+#inicio,
+#biografia,
+#contactos,
+#discografia,
+#galeria {
   color: white;
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  text-decoration: none;
   font-weight: bold;
-    
-    }
-#contactos { 
-    color: white;
-    font-size: 24px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-#discografia { 
-    color: white;
-    font-size: 24px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: bold;
+  text-decoration: none;
 }
-    
-#galeria { 
-    color: white;
-    font-size: 24px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-decoration: none;
-    font-weight: bold;
-  }
 
 /* MAIN */
 main {
@@ -128,61 +89,38 @@ h2 {
 /* FOOTER */
 
 footer{
-    height: 117px;
-    background-color: #00BFFF
-    }
-h4{ 
-        
-    color: white;
-    font-size: 30px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    text-align: center;
- }
-    
-    #padreRedes {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        display: flex;
-    }
-    
-    #hijoRedes1 {
-        color: white;
-        font-size: 20px;
-        font-family: "Inter", sans-serif;
-        font-optical-sizing: auto;
-      font-style: normal;
-        text-decoration: none;
-        font-weight: bold;
-        order: 1;
-        
-    }
-    
-    #hijoRedes2{
-        color: white;
-        font-size: 20px;
-        font-family: "Inter", sans-serif;
-        font-optical-sizing: auto;
-      font-style: normal;
-        text-decoration: none;
-        font-weight: bold;
-        order: 2;
-    
-    }
-    
-    #hijoRedes3{
-        color: white;
-        font-size: 20px;
-        font-family: "Inter", sans-serif;
-        font-optical-sizing: auto;
-      font-style: normal;
-        text-decoration: none;
-         font-weight: bold;
-         order: 3;
-    
-    }
+  height: 117px;
+  background-color: #00BFFF
+  }
+
+
+footer h4 {
+color: white;
+font-size: 30px;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+text-align: center;
+font-weight: bold;
+}
+  
+#padreRedes {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  }
+#hijoRedes1,
+#hijoRedes2,
+#hijoRedes3 {
+  color: white;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 30px;}
 
 
     @media only screen and (max-width: 991px) {
@@ -191,6 +129,7 @@ h4{
       #padreNav li a {
           font-size: 13px;
         }
+        
     
       p {
         width: 100%;
@@ -211,10 +150,10 @@ h4{
       }
   
       h4{font-size: 20px;
-        
-   
       }
-  
+      #padreRedes a {
+        font-size: 13px;
+      }
     }
     
    
